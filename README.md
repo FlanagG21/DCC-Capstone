@@ -8,15 +8,15 @@
 ## Key Libraries
 
 This Project uses:
-    - pandas for data cleaning
+- pandas for data cleaning
 
-    - re for text preprocessing
+- re for text preprocessing
 
-    - torch for CUDA and neural net architecture
+- torch for CUDA and neural net architecture
 
-    - transformers for embeddings
+- transformers for embeddings
 
-    - sklearn for Machine learning and similarity based recommendations
+- sklearn for Machine learning and similarity based recommendations
 
 
 ## Overview: 
