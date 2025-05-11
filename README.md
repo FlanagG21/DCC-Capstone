@@ -15,7 +15,7 @@ This Project uses:
     - torch for CUDA and neural net architecture
 
     - transformers for embeddings
-    
+
     - sklearn for Machine learning and similarity based recommendations
 
 
@@ -29,7 +29,7 @@ This project trains an adversarial autoencoder to put the song embeddings and th
 
 The project has two recommendation systems, one based off of the embeddings obtained with the [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) model, and one based off of the embeddings obtained from the best_aae_model. A sample recommendation for five songs for the aae based embeddings can be found in the AutoencoderBasedRecomender.ipynb file. In addition a recommendation for a single song of your choosing for the base model can be found in the single_song_recommendation.ipynb file. The single song recommendation can only take in songs found in the [Genius song lyrics](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information?select=song_lyrics.csv) dataset. Recomendations for the whole dataset for both models can be found in recommendation_calculation.ipynb.
 
-The project evaluates a random sample of the recommendations using [gemini-2.5-flash-preview-04-17](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash). 
+The project evaluates a random sample of the recommendations using [gemini-2.5-flash-preview-04-17](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash). Code for evaluation can be found in recommendation_eval.py
 
 ## Important
 
