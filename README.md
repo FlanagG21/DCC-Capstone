@@ -9,9 +9,13 @@
 
 This Project uses:
     - pandas for data cleaning
+
     - re for text preprocessing
+
     - torch for CUDA and neural net architecture
+
     - transformers for embeddings
+    
     - sklearn for Machine learning and similarity based recommendations
 
 
